@@ -4,9 +4,13 @@
       <NuxtPage />
     </div>
   </NuxtLayout>
+  <!-- <About />
+  <Gallery /> -->
 </template>
 
 <script setup>
+import About from './components/About.vue'
+import Gallery from './components/Gallery.vue'
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
@@ -20,6 +24,4 @@ if ('mounted' in route.query) {
     throw new Error('error in mounted')
   })
 }
-
 </script>
-  
