@@ -1,16 +1,18 @@
 <template>
-  <NuxtLayout>
+  <!-- <NuxtLayout>
     <div>
       <NuxtPage />
     </div>
-  </NuxtLayout>
+  </NuxtLayout> -->
   <!-- <About />
   <Gallery /> -->
+  <GalleryMain />
 </template>
 
 <script setup>
 import About from './components/About.vue'
 import Gallery from './components/Gallery.vue'
+import GalleryMain from './components/GalleryMain.vue'
 import { onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 
