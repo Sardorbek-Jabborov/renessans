@@ -7,17 +7,10 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {
-  props: {
-    img: {
-      type: String,
-      required: true,
-    },
-    title: {
-      type: String,
-      required: true,
-    },
-  },
+<script setup lang="ts">
+interface Props {
+  img?: String
+  title?: String
 }
+defineProps<Props>()
 </script>

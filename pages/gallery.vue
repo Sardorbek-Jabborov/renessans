@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import GalleryCardSmall from './GalleryCardSmall.vue'
+import GalleryCardSmall from '../components/GalleryCardSmall.vue'
 
 const GalleryCard = [
   {

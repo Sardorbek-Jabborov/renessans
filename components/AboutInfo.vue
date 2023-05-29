@@ -1,5 +1,5 @@
 <template>
-  <div class="relative">
+  <div class="bg-[#00161e] flex items-center relative">
     <div class="container !my-16">
       <p class="font-light text-xs leading-140 text-white max-w-[800px]">
         Hashamatli Renesans Hall saroyi 2500 kvadrat metrli monitorlar, 1500 dan
@@ -30,11 +30,12 @@
 
 <style scoped>
 .bg-vector {
-  z-index: 999;
-  position: absolute;
-  width: 245px;
+  z-index: 10000;
   right: 0;
-  top: -100px;
-  object-fit: cover;
+  position: absolute;
+  width: 250px;
+  top: 0;
+  bottom: 0px;
+  object-fit: contain;
 }
 </style>

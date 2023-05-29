@@ -32,17 +32,10 @@
 }
 </style>
 
-<script lang="ts">
+<script setup lang="ts">
 import MButton from './Button/MButton.vue'
-export default {
-  props: {
-    image: {
-      type: String,
-      requried: true,
-    },
-  },
-  components: {
-    MButton,
-  },
+interface Props {
+  image?: String
 }
+defineProps<Props>()
 </script>

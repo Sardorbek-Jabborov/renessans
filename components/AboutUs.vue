@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-about relative h-screen flex flex-col">
+  <div class="bg-about relative h-screen flex flex-col z-[-1]">
     <img src="/svg/button.svg" alt="image" class="z-[99px] mx-auto mt-auto" />
     <div
       class="container !mt-auto !mb-[80px] z-50 flex justify-between items-center"

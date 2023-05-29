@@ -10,18 +10,11 @@
   </div>
 </template>
 
-<script lang="ts">
-export default {
-  props: {
-    title: {
-      type: String,
-      required: true,
-    },
-
-    img: {
-      type: String,
-      required: true,
-    },
-  },
+<script setup lang="ts">
+interface Props {
+  title?: String
+  img?: String
 }
+
+defineProps<Props>()
 </script>
